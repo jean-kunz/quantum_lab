@@ -1,0 +1,13 @@
+name: quantum
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - ipykernel
+  - pip:
+     - git+https://github.com/qiskit-community/qiskit-textbook.git#subdirectory=qiskit-textbook-src
+     - pylatexenc
+     - tweedledum

@@ -11,3 +11,6 @@ dependencies:
      - git+https://github.com/qiskit-community/qiskit-textbook.git#subdirectory=qiskit-textbook-src
      - pylatexenc
      - tweedledum
+     - seaborn
+     - qiskit[optimization]
+     - qiskit[finance]
